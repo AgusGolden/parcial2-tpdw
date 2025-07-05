@@ -127,3 +127,54 @@ footer p {
     padding-top: 6em;
     font-size: 0.7em;
 }
+
+
+@media (max-width: 768px) {
+    .datos-personales {
+        width: 90%;
+    }
+
+    .fila-doble {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .media-columna {
+        flex: 1 1 100%;
+    }
+
+    aside {
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 1em 0;
+    }
+
+    .info-contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        text-align: center;
+    }
+
+    .botones {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    input, textarea, button {
+        font-size: 1em;
+    }
+}

@@ -81,3 +81,28 @@ a {
 a:hover {
     color: #11215A;
 }
+
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabecera {
+        padding-right: 0;
+    }
+    article {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    .subtitulo {
+        font-size: 0.9em;
+    }
+}

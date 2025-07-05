@@ -96,6 +96,8 @@ nav ul li a:hover {
     justify-content: right;
     align-items: center;
     line-height: 3em;
+}
+#botones {
     margin-right: 10%;
 }
 .boton {
@@ -113,4 +115,44 @@ nav ul li a:hover {
     background-color: #FB3640;
     color: #F7F7FF;
     padding-inline: 1.5em;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .descripcion-contenedor {
+        width: 90%;
+        margin: -5em auto 0 auto;
+        padding: 1.5em;
+    }
+    .descripcion {
+        flex-direction: column;
+    }
+    .descripcion .linea, .descripcion p {
+        width: 100%;
+        padding-right: 0;
+    }
+    .botones {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .descripcion-contenedor .titulo {
+        font-size: 2em;
+        text-align: center;
+    }
+    .boton {
+        font-size: 1.2em;
+    }
+    .botones p {
+        font-size: 0.9em;
+    }
 }
