@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global - Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="../img/logo.png" alt="Logo de Global">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sectores.html">Sectores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Contacto</h1>
+
+        <section class="datos-personales">
+
+            <form action="#" method="post">
+
+                <div class="error oculto"></div>
+
+               <div class="fila-doble">
+                    <div class="media-columna">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="media-columna">
+                        <label for="apellido">Apellido *</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                </div>
+
+                <div class="fila-simple">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="fila-simple">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+
+                <div class="fila-simple">
+                    <button type="submit">Enviar</button>
+                </div>
+            
+            </form>
+
+            <article class="info-contacto">
+                <p class="direccion">Bernardo de Irigoyen 696, Boulogne, San Isidro.</p>
+                <p class="telefono">Telefono: +54 09 11 1234-5678</p>
+                <p class="mail">Email: info@global.com</p>
+            </article>
+
+        </section>
+
+        <aside>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../img/facebook.svg" class="red-social" alt="Facebook">
+            </a>
+
+            <a href="https://www.x.com/" target="_blank">
+                <img src="../img/twitter.svg" class="red-social" alt="Twitter">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">  
+                <img src="../img/linkedin.svg" class="red-social" alt="LinkedIn"> 
+            </a>
+
+        </aside>
+
+        <div class="botones">
+                <a class="boton" href="nosotros.html">←</a>
+                <p>Volver al inicio</p>
+        </div>
+
+        <footer>
+            <p>© 2025 Global | Todos los derechos reservados | Goldenthal Agustín</p>
+        </footer>
+    
+    </main>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
